@@ -1,0 +1,7 @@
+.destinosPage { display: grid; gap: 3rem; padding: clamp(3rem, 8vw, 7rem) 0; }
+.pageHeader { display: grid; grid-template-columns: 1fr 0.7fr; gap: 2rem; align-items: end; border-bottom: 1px solid var(--line); padding-bottom: 2rem; }
+.pageHeader h1 { margin: 0; font-family: "Iowan Old Style", "Baskerville", "Times New Roman", serif; font-size: clamp(3.5rem, 9vw, 8rem); font-weight: 400; letter-spacing: -0.06em; line-height: 0.85; }
+.pageHeader p { max-width: 300px; margin: 0; color: var(--muted); line-height: 1.55; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+@media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .pageHeader { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr; } }

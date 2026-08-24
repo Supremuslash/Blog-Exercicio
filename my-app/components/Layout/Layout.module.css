@@ -1,0 +1,3 @@
+.pageWrapper { min-height: 100vh; display: flex; flex-direction: column; background: var(--paper); }
+.main { width: min(100% - 3rem, 1360px); margin: 0 auto; flex: 1; }
+@media (max-width: 640px) { .main { width: min(100% - 2rem, 1360px); } }

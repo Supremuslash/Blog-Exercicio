@@ -1,0 +1,6 @@
+.header { display: flex; justify-content: space-between; align-items: start; width: min(100% - 3rem, 1360px); margin: 0 auto; padding: 1.35rem 0; border-bottom: 1px solid var(--line); }
+.brand { color: var(--ink); font-family: "Iowan Old Style", "Baskerville", "Times New Roman", serif; font-size: 1.25rem; line-height: 0.82; }
+.navigation { display: flex; gap: 1.5rem; align-items: center; }
+.navigation a { color: var(--muted); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; transition: color 180ms ease; }
+.navigation a:hover { color: var(--red); }
+@media (max-width: 640px) { .header { width: min(100% - 2rem, 1360px); } .navigation { gap: 0.8rem; } .navigation a { font-size: 0.6rem; } }

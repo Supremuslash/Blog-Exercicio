@@ -1,0 +1,10 @@
+.card { min-width: 0; }
+.cardLink { display: block; }
+.imageStack { position: relative; overflow: hidden; background: var(--paper-deep); aspect-ratio: 4 / 5; }
+.image { width: 100%; height: 100%; object-fit: cover; filter: saturate(0.78); transition: transform 500ms ease, filter 500ms ease; }
+.cardLink:hover .image { transform: scale(1.035); filter: saturate(1); }
+.secondaryImage { position: absolute; top: auto !important; left: auto !important; right: 0.8rem; bottom: 0.8rem; width: 28% !important; height: auto !important; aspect-ratio: 1; object-fit: cover; border: 3px solid var(--paper); }
+.cardBody { display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1rem; padding: 0.9rem 0 0; border-bottom: 1px solid var(--line); }
+.local { color: var(--red); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+.cardTitle { grid-column: 2; margin: 0; color: var(--ink); font-family: "Iowan Old Style", "Baskerville", "Times New Roman", serif; font-size: clamp(1.7rem, 3vw, 3.2rem); font-weight: 400; letter-spacing: -0.04em; line-height: 0.9; }
+.cardSubtitle { grid-column: 2; margin: 0.3rem 0 1rem; color: var(--muted); font-size: 0.78rem; line-height: 1.45; }

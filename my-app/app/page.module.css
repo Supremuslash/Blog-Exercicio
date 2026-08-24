@@ -1,0 +1,26 @@
+.home { display: grid; gap: clamp(5rem, 11vw, 10rem); }
+.hero { padding: clamp(3rem, 9vw, 8rem) 0 0; border-bottom: 1px solid var(--line); }
+.kicker { margin: 0; color: var(--muted); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; }
+.heroGrid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(220px, 0.6fr); gap: 4rem; align-items: end; margin-top: 2rem; padding-bottom: 3.5rem; }
+.hero h1 { max-width: 760px; margin: 0; color: var(--ink); font-family: "Iowan Old Style", "Baskerville", "Times New Roman", serif; font-size: clamp(4rem, 10vw, 9.5rem); font-weight: 400; letter-spacing: -0.055em; line-height: 0.84; }
+.heroIntro { max-width: 300px; padding-bottom: 0.45rem; }
+.heroIntro p { margin: 0 0 2rem; color: var(--muted); font-size: 1rem; line-height: 1.55; }
+.heroLink, .sectionLink { color: var(--ink); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+.heroLink span, .sectionLink span { color: var(--red); font-size: 1.2rem; margin-left: 0.35rem; }
+.featured, .articles { display: grid; gap: 2.5rem; }
+.sectionHeading { display: grid; grid-template-columns: 0.8fr 1fr auto; gap: 1rem; align-items: end; border-top: 1px solid var(--line); padding-top: 1rem; }
+.sectionHeading h2 { margin: 0; color: var(--ink); font-family: "Iowan Old Style", "Baskerville", "Times New Roman", serif; font-size: clamp(2.3rem, 4vw, 4.5rem); font-weight: 400; letter-spacing: -0.04em; line-height: 0.95; }
+.sectionLink { justify-self: end; }
+.destinationGrid { display: grid; grid-template-columns: 1.15fr 0.85fr 0.85fr; gap: 1rem; align-items: start; }
+.destinationGrid > article:first-child { grid-row: span 2; }
+.articleGrid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }
+.homeFooter { display: flex; justify-content: space-between; gap: 1rem; padding: 1rem 0 3rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; }
+.homeFooter p { margin: 0; color: var(--ink); }
+@media (max-width: 760px) {
+  .heroGrid, .sectionHeading { grid-template-columns: 1fr; gap: 1.5rem; }
+  .hero h1 { font-size: clamp(3.7rem, 18vw, 7rem); }
+  .heroIntro { max-width: 340px; }
+  .sectionLink { justify-self: start; }
+  .destinationGrid, .articleGrid { grid-template-columns: 1fr; }
+  .destinationGrid > article:first-child { grid-row: auto; }
+}

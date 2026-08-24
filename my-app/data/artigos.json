@@ -1,0 +1,35 @@
+[
+  {
+    "titulo": "Como escolher o próximo destino de viagem",
+    "autor": "O chinho",
+    "dataPublicacao": "2026-08-12",
+    "descricao": "Um guia prático para transformar vontade de viajar em um roteiro que combina com o seu ritmo.",
+    "conteudo": [
+      "Escolher um destino começa por entender o tipo de experiência que você quer viver. Praias tranquilas, cidades históricas e trilhas pedem planejamentos bem diferentes.",
+      "Depois, compare a melhor época, o orçamento disponível e o tempo de viagem. Com esses três pontos claros, fica muito mais fácil montar um roteiro realista e aproveitar cada dia.",
+      "O melhor destino não é necessariamente o mais famoso: é aquele que faz sentido para o momento da sua vida."
+    ]
+  },
+  {
+    "titulo": "Pequenas cidades, grandes histórias",
+    "autor": "Alex Darwin",
+    "dataPublicacao": "2026-07-28",
+    "descricao": "Por que incluir cidades menores no roteiro pode revelar a parte mais autêntica de uma viagem.",
+    "conteudo": [
+      "Longe dos cartões-postais mais disputados, pequenas cidades guardam mercados, festas e conversas que ajudam a compreender a cultura local.",
+      "Reserve um dia para caminhar sem pressa, experimentar uma receita regional e perguntar aos moradores quais lugares eles recomendam.",
+      "Essas descobertas inesperadas costumam se transformar nas lembranças mais duradouras da viagem."
+    ]
+  },
+  {
+    "titulo": "Viajar com mais presença",
+    "autor": "Supremuslash",
+    "dataPublicacao": "2026-07-09",
+    "descricao": "Ideias simples para desacelerar, observar melhor e aproveitar o caminho tanto quanto a chegada.",
+    "conteudo": [
+      "Um roteiro cheio demais pode transformar uma viagem em uma lista de tarefas. Deixar espaços livres permite que o lugar dite parte do ritmo.",
+      "Caminhe, observe a paisagem e escolha uma experiência por vez. Guardar o celular por alguns minutos também muda a forma como percebemos o entorno.",
+      "Viajar com presença é voltar para casa com menos registros automáticos e mais histórias para contar."
+    ]
+  }
+]
