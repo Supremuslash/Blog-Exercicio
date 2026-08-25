@@ -1,7 +1,6 @@
 import { destinos } from "../../data/destinos";
 import CardDestino from "../../components/CardDestino";
 import styles from "./page.module.css";
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function DestinosPage() {
   return (
@@ -18,7 +17,6 @@ export default function DestinosPage() {
           <CardDestino key={destino.id} destino={destino} />
         ))}
       </div>
-      <SpeedInsights />
     </section>
   );
 }
